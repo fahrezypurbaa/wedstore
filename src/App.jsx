@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Service from "./components/Service";
+import Features from "./components/Features";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <Hero />
       <Service />
+      <Features />
     </div>
   );
 }
