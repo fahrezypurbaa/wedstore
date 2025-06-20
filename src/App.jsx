@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Service from "./components/Service";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
     <div className="App bg-green-950 min-h-screen">
       <Navbar />
       <Hero />
+      <Service />
     </div>
   );
 }
