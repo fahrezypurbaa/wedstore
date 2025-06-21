@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaGift, FaMusic, FaImage, FaHeart, FaUser, FaRegComments, FaTv } from 'react-icons/fa';
-import phone from '../assets/phone.png'; 
 import bg from '../assets/bg-hero.jpg';
 
 const features = [
@@ -11,7 +10,6 @@ const features = [
   { id: 'gift', label: 'SEND GIFT', icon: <FaGift size={28} /> },
   { id: 'gallery', label: 'GALLERY PHOTO & VIDEO', icon: <FaImage size={28} /> },
   { id: 'lovestory', label: 'LOVE STORY', icon: <FaHeart size={28} /> },
-  { id: 'live', label: 'VIRTUAL LIVE WEDDING BUTTON', icon: <FaTv size={28} /> },
 ];
 
 const FeaturesSection = () => {
@@ -25,13 +23,7 @@ const FeaturesSection = () => {
       <h2 className="text-center text-3xl font-bold mb-12">OUR FEATURES</h2>
 
       <div className="relative max-w-6xl mx-auto flex flex-wrap justify-center items-center gap-6">
-        {/* Ilustrasi HP */}
-        <img
-          src={phone}
-          alt="Phone Illustration"
-          className="w-64 md:w-80 z-10"
-        />
-
+       
         {/* Fitur sekitar HP */}
         <div className="absolute inset-0 flex flex-wrap justify-center items-center gap-8 px-4">
           {features.map((feature) => (

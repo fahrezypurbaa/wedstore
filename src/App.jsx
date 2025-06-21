@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Service from "./components/Service";
 import Features from "./components/Features";
+import DemoPreview from "./components/DemoPreview";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <Hero />
       <Service />
       <Features />
+      <DemoPreview />
     </div>
   );
 }
